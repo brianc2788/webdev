@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "FirefoxExt01",
+	"version": "0.1",
+
+	"description": "Renders a blue border around pages on mozilla.org (inspired by Mozilla Web Docs). Authored by brianc2788@gmail.com.",
+
+	"icons": {
+		"48": "icon_Ext01.png"
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["*://*.mozilla.org/*"],
+			"js": ["blueborder.js"]
+		}
+	]
+}
