@@ -1,0 +1,10 @@
+body {
+	margin-left: 30%;
+	margin-right: 30%;
+
+	font-family: monospace;
+	font-variant: slashed-zero;
+
+	color: #A0FFA0;            /* lightgreen */a
+	background-color: #000000; /* black */
+}
