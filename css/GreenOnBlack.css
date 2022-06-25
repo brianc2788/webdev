@@ -34,8 +34,8 @@ blockquote.psuedo-code {
 	font-variant: slashed-zero;
 }
 
-/* Ad-hoc Footer */
-p.copyleft {
+/* Copyright Footer (divider) */
+.copyleft {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 10px;
 	font-style: italic;
