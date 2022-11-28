@@ -1,6 +1,9 @@
-# what does the cow say?
-# i mean, add a couple numbers.
-# i know rubyyyy.
+#!/usr/bin/env ruby
+# Just a crappy little script to try out
+# ruby; named after a pretty famous shell
+# script.
+# http://brianc2788.github.io/
+
 def add(num1,num2)
 	nSum = num1 + num2;
 	print("the cow says...\nI mean, two plus two is....!!!\n");
